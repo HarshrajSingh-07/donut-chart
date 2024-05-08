@@ -1,0 +1,60 @@
+.totalArea {
+    background-color: rgb(8, 8, 89);
+    color: white;
+}
+
+.container-fluid {
+    /* width: 100%; */
+}
+
+.apexcharts-align-center {
+    text-align: left !important;
+}
+
+.apexcharts-legend-marker {
+    margin-right: 15px !important;
+}
+
+h2 {
+
+    display: inline-block;
+    position: absolute;
+    left: 465px;
+    top: 70px;
+}
+
+p {
+    display: inline-block;
+    margin: 0;
+    margin-top: 3px;
+}
+
+.mainCon {
+    position: fixed;
+}
+
+.circle-mid {
+    position: absolute;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 52%;
+    left: 36.8%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #070c38;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
