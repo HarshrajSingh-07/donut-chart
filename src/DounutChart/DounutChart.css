@@ -1,11 +1,32 @@
-.totalArea {
-    background-color: rgb(8, 8, 89);
-    color: white;
+.mainParent {
+    position: absolute;
 }
 
-.container-fluid {
-    /* width: 100%; */
+[rel="1"] {
+    font-size: 16px !important;
+    color: black !important;
+    margin-left: 10px !important;
+    cursor: text;
+    width: fit-content !important;
+    pointer-events: none !important;
 }
+
+.custom-class {
+    font-size: 30px !important;
+}
+
+.title-container {
+    border-bottom: 1px solid;
+}
+
+.title-container h2 {
+    width: fit-content;
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
 
 .apexcharts-align-center {
     text-align: left !important;
@@ -13,15 +34,10 @@
 
 .apexcharts-legend-marker {
     margin-right: 15px !important;
+    width: 15px !important;
+    height: 15px !important;
 }
 
-h2 {
-
-    display: inline-block;
-    position: absolute;
-    left: 465px;
-    top: 70px;
-}
 
 p {
     display: inline-block;
@@ -30,7 +46,7 @@ p {
 }
 
 .mainCon {
-    position: fixed;
+    position: relative;
 }
 
 .circle-mid {
@@ -40,21 +56,24 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: 52%;
-    left: 36.8%;
+    top: 56%;
+    left: 32.5%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
 
 
 .circle {
-    width: 80px;
-    height: 80px;
     border-radius: 50%;
     background-color: #070c38;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+}
+
+.partner-div {
+    width: fit-content;
+    position: absolute;
+    top: 4rem;
+    right: 4rem;
 }
